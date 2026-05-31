@@ -44,4 +44,11 @@ assignment2/
 
 5. ACKNOWLEDGMENTS & SOURCES USED
 - Font Stacks: Trebuchet MS, Georgia (System standard clean font layers).
-- Imagery Sources: 
+- Image Sources: 
+Mint&Co https://www.bestrestaurants.com.au/vic/melbourne/carlton/restaurant/mint-and-co?srsltid=AfmBOopMtudvbcLeadPLXffloUyqm67-5gtTgkb-XtShIQn_Nn1wBlOu
+Samut https://thecitylane.com/samut-melbourne-cbd/
+Shu Melbourne https://concreteplayground.com/melbourne/restaurants/shu
+The Observatory https://darlinggroup.com.au/the-observatory/
+Lanzhou Noodles https://www.masterlanzhou.com.au/melbourne-cbd/
+The Olive Garden Bistro https://www.tripadvisor.com.au/Restaurant_Review-g31310-d3916950-Reviews-Olive_Garden_Italian_Restaurant-Phoenix_Arizona.html
+
