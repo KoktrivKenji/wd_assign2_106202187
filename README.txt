@@ -9,6 +9,7 @@ Student ID: 106202187
 Unit Code: COS10005
 Unit Name: Web Development
 Submission Date: 31 May 2026
+Github link: https://github.com/KoktrivKenji/wd_assign2_106202187.git
 
 
 2. SCENARIO
