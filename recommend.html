@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenji's Guide | Restaurant Discovery & Reservations</title>
+   <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Kenji's Guide Logo" class="logo">
+        <h1>Kenji's Guide</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="restaurants.html">Browse Restaurants</a>
+        <a href="recommend.html" class="active-page">Get Recommendations</a>
+        <a href="register.html">Register</a>
+        <a href="reservation.html">Make Reservation</a>
+    </nav>
+
+    <main>
+        <h2>Find Your Perfect Restaurant Match</h2>
+        <form id="recommendationForm">
+            <fieldset>
+                <legend>Tell Us Your Preferences</legend>
+                
+                <p>
+                    <label for="diet">Dietary Preference:</label>
+                    <select id="diet" name="diet">
+                        <option value="none">None / Anything goes</option>
+                        <option value="vegan">Vegan</option>
+                        <option value="halal">Halal</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="budget">Budget Range (Per Person):</label>
+                    <select id="budget" name="budget">
+                        <option value="low">Budget Friendly (Under $30)</option>
+                        <option value="mid">Mid-Range ($30 - $60)</option>
+                        <option value="high">Fine Dining ($60+)</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="purpose">Dining Purpose:</label>
+                    <select id="purpose" name="purpose">
+                        <option value="family">Family Gathering</option>
+                        <option value="date">Date Night</option>
+                        <option value="business">Friend Catchup</option>
+                    </select>
+                </p>
+
+                <a href="reservation.html?restaurant=Samut" class="btn">Find Matches</a>
+            </fieldset>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Koktriv Phu. All rights reserved for assignment 2 in COS10005.</p>
+    </footer>
+   
+</body>
+</html>

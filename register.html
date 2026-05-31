@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenji's Guide | Restaurant Discovery & Reservations</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+       <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Kenji's Guide Logo" class="logo">
+        <h1>Kenji's Guide</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="restaurants.html">Browse Restaurants</a>
+        <a href="recommend.html">Get Recommendations</a>
+        <a href="register.html" class="active-page">Register</a>
+        <a href="reservation.html">Make Reservation</a>
+    </nav>
+
+    <main>
+        <h2>Create an Account</h2>
+        <div id="errorSummary" class="error-box hidden"></div>
+<form id="registrationForm" method="POST" action="http://mercury.swin.edu.au/it000000/cos10005/regtest.php">
+    <fieldset>
+        <legend>Personal and Security Details</legend>
+
+                <p>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required placeholder="Min 5 characters, alphanumeric/underscores">
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@domain.com">
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="8 to 15 digits only">
+                </p>
+
+                <p>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required placeholder="Min 10 chars with Upper, Lower, Num, Special">
+                </p>
+
+                <p>
+                    <label for="confirmPassword">Confirm Password:</label>
+                  
+                    <input type="password" id="confirmPassword" name="confirmPassword">
+
+                </p>
+
+                <p>
+                    <label>Gender:</label>
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="other"> Other</label>
+                </p>
+
+                <p>
+                    <label for="regDiet">Dietary Preferences:</label>
+                    <select id="regDiet" name="regDiet">
+                        <option value="none">None</option>
+                        <option value="vegan">Vegan</option>
+                        <option value="halal">Halal</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="country">Country/Region:</label>
+                    <input type="text" id="country" name="country" required>
+                </p>
+
+                <button type="submit">Submit Registration</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Koktriv Phu. All rights reserved for assignment 2 in COS10005.</p>
+    </footer>
+    
+ 
+    
+</body>
+</html>
